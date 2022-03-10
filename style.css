@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    max-width: 786px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 10vh;
+}
+
+  .Logo img {
+      width: 60vh;
+      height: auto;
+}  
+  
+.menu-icon img {
+        width: 7vh;
+        height: auto;
+}
+.container2 {
+    height: auto;
+    margin: 70px 0 0 10vh;
+    background: url(assets/graphic.svg);
+    background-size: auto 600px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 400px;
+    background-position-y: -74px;
+   
+
+}
+.text1 {
+    color: rgb(245, 70, 99);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 3vh;
+}
+
+
+.text2 {
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-top: -10px;
+}
+
+.text3 {
+    color: gray;
+    font-size: 2rem;
+}
