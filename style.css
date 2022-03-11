@@ -74,3 +74,20 @@ body {
     font-size: 1.6rem;
     padding-bottom: 10px;
 }
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    margin: 70px 10vh;
+
+}
+.items-top, .items-button {
+    display: flex;
+    justify-content: space-between;
+    margin: 10vh 0 ;
+}
+
+.icons img {
+    width: 40vh;
+    height: auto;
+}
