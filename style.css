@@ -91,3 +91,74 @@ body {
     width: 40vh;
     height: auto;
 }
+
+.container4 {
+margin: 0 10vh;
+}
+
+.text6 p {
+    font-size: 3rem;
+    font-weight: bold;    
+}
+
+.text7 p{
+    font-size: 1.6rem;
+    color: gray;  
+}
+.container5 {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    width: 100vh;
+    padding-bottom: 50px;
+}
+div.item-left img, div.item-right img {
+    width: 500px;
+    height: auto;
+    margin-right: 10vh;
+}
+
+.container5 table {
+    width: 500px;
+}
+
+.container5 td:first-child {
+text-align: left;
+
+}
+
+.container5 td:nth-child(2) {
+    text-align: right;
+  
+}
+
+.container5 table td.top1 {
+color: rgb(245, 98, 45);
+padding: 3vh 5vh 0 5vh;
+}
+
+.container5 table td.top2 {
+    color: gray;
+    padding: 3vh 5vh 0 5vh;
+}
+
+.container5 table td.col1, .container5 table td.col2 {
+    font-size: 2rem;
+    padding: 2rem;
+    padding: 3vh 5vh 0 5vh;
+}
+
+.container5 table td.col2 {
+    background-image: url(assets/eth.svg);
+    background-size: auto 2.3rem;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 30px;
+    background-position-y: 20px;
+}
+
+.container5 table td.col3, .container5 table td.col4 {
+    color: gray;
+    font-size: 2rem;
+    padding: 3vh 5vh 0 5vh;
+}
