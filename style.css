@@ -180,3 +180,57 @@ section.container6 {
     padding: 25px 70px;
     font-size: 1.6rem;
 }
+
+footer {
+    margin: 10vh;
+}
+
+.container7 .text8 p {
+    font-size: 2.6rem;
+    color: gray;
+}
+
+.icons2 img {
+    display: inline-block;
+    height: 30px;
+    margin-right: 5vh;
+
+}
+
+.navigation {
+    margin: 10vh 0 0 0;
+    display: flex;
+    flex-direction: column;
+    width: 70vh;
+}
+
+.navigation p {
+font-size: 2.6rem;
+color: gray;
+margin: 10vh 0;
+}
+
+.about, .NFT, .CONTACTS, .SOCIAL {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation a {
+    margin: 1vh 0;
+    text-decoration: none;
+    color: gray;
+    font-size: 2.6rem;
+}
+
+.top-info, .bottom-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom p {
+    color: gray;
+    font-size: 2.6rem;
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+
+}
