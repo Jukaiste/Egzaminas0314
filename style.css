@@ -28,17 +28,17 @@ body {
     background-repeat: no-repeat;
     background-position: right;
     background-position-x: 400px;
-    background-position-y: -74px;
+    background-position-y: center;
 }
 
 @media screen and (min-width: 768px) {
     .container2 {
-        background-size: auto;
+        
         margin: 70px 0 0 10vh;
         background: url(assets/graphic.svg);
         background-repeat: no-repeat;
         background-position-x: right;
-        background-position-y: -74px;
+        background-size: 700px 500px;
     }
 }
 
