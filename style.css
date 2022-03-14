@@ -1,0 +1,568 @@
+body {
+    margin: 10vh;
+ }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+
+  .Logo img {
+      width: 40vh;
+      height: auto;
+}  
+  
+.menu-icon img {
+        width: 7vh;
+        height: auto;
+}
+
+.container2 {
+    width: 100%;
+    background: url(assets/graphic.svg);
+    background-size: auto 90%;
+    background-repeat: no-repeat;
+    background-position-x: 15rem;
+    background-position-y: top;
+    margin-top: 7rem;
+}
+
+@media screen and (min-width: 768px) {
+    .container2 {
+        
+        margin: 7rem 0 0 0;
+        background: url(assets/graphic.svg);
+        background-repeat: no-repeat;
+        background-position-x: 40rem;
+        background-position-y: top;
+        background-size: auto 40rem;
+    }
+}
+
+.text1 {
+    color: rgb(245, 70, 99);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 3vh;
+}
+
+
+.text2, .text2-1 {
+    font-size: 4rem;
+    font-weight: bold;
+    width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .text2-1 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .text2 {
+        display: none;
+    }
+}
+
+.text3, .text3-1 {
+    color: gray;
+    font-size: 2rem;
+    width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .text3-1 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .text3 {
+        display: none;
+    }
+}
+
+.container2 button {
+border: solid 0.25rem transparent;
+width: 14rem;
+height: 4rem;
+border-radius: 2rem;
+background-image: linear-gradient(white, white), linear-gradient(to right, #FF3998, #FF8139);
+background-origin: border-box;
+background-clip: content-box, border-box;
+}
+
+.container a {
+    display: inline-block;
+    justify-content: space-between;
+    color: gray;
+    font-size: 1.6rem;
+    margin: 10px;
+    text-decoration: none;
+ }
+
+.container span {
+    color: rgb(245, 70, 99)
+}
+
+@media screen and (max-width: 768px) {
+    .container .navig {
+        display: none;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .container .menu-icon {
+        display: none;
+    }
+}
+
+.container3 {
+    background-image: url(assets/background.svg);
+    background-repeat: no-repeat; 
+    padding: 3rem;
+    background-size: cover;
+    background-position: center;
+    margin: 7rem -10vh;
+}
+
+
+
+.icons .items-plus {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+.icons .items-plus{
+    display: none;
+}
+}
+
+
+@media screen and (min-width: 768px) {
+    .icons .items-top, .icons .items-button {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+.container3 {
+    background-image: url(assets/background.svg);
+    background-repeat: no-repeat; 
+    background-size: 100% auto;
+    margin: 7rem 0.1vh 7rem 0.1vh;
+    border-radius: 1rem;   
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container4 .text6-1 p {
+    font-size: 3rem;
+    font-weight: bold; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container4 .text6-1 p {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container4 .text6 p {
+   display: none; 
+    }
+}
+
+.text4 p {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.text5 p {
+    font-size: 1.6rem;
+    padding-bottom: 10px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.items-top, .items-button {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.icons img {
+    width: 15rem;
+    height: auto;
+}
+
+.container4 {
+margin-top: 7rem;
+}
+
+.text6 p {
+    font-size: 3rem;
+    font-weight: bold;
+    width: 80%;    
+}
+
+.text7 p{
+    font-size: 1.6rem;
+    color: gray;  
+    width: 100%;
+}
+
+.text7-1 p{
+    font-size: 1.6rem;
+    color: gray;  
+}
+
+@media screen and (max-width: 768px) {
+    .container4 .text7-1 p {
+        display: none; 
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container4 .text7 p {
+       display: none; 
+    }
+}
+
+
+
+.container5 {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    margin-bottom: 7rem;
+}
+
+@media screen and (min-width: 768px) {
+    .container5 {
+        display: flex;
+        overflow-x: unset;
+        width: 100%;
+    }
+}
+
+.container5 div.item-1 img, .container5 div.item-2 img, .container5 div.item-3 img, .container5 div.item-4 img  {
+    width: 23rem;
+    height: auto;
+    margin-right: 3rem;
+    
+}
+
+ 
+@media screen and (min-width: 768px) {
+    .container5 div.item-1 img, .container5 div.item-2 img, .container5 div.item-3 img, .container5 div.item-4 img  {
+        width: 19rem;
+        height: auto;
+        margin-right: 3rem;
+    } 
+}
+
+
+.container5 table {
+    width: 23rem;
+}
+
+@media screen and (min-width: 768px) {
+    .container5 table {
+        width: 19rem;
+    }
+}
+
+.container5 td:first-child {
+text-align: left;
+
+}
+
+.container5 td:nth-child(2) {
+    text-align: right;
+  
+}
+
+.container5 table td.top1 {
+color: rgb(245, 98, 45);
+padding: 1rem 0 0 1rem;
+}
+
+.container5 table td.top2 {
+    color: gray;
+    padding: 1rem 1rem 0 0;
+}
+
+@media screen and (min-width: 768px) {
+    .container5 table td.top1,  .container5 table td.top2 {
+        font-size: 0.5rem;
+        
+        
+    }
+}
+
+.container5 table td.col1, .container5 table td.col2 {
+    font-size: 1.8rem;
+    padding: 1rem 0 0 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .container5 table td.col1, .container5 table td.col2 {
+        font-size: 1rem;
+        
+        
+    }   
+}
+
+.container5 table td.col2 {
+    background-image: url(assets/eth.svg);
+    background-size: auto 1.8rem;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 2rem;
+    background-position-y: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .container5 table td.col2 {
+        background-image: url(assets/eth.svg);
+        background-size: auto 1.2rem;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-position-x: 2rem;
+        background-position-y: 1rem;
+       
+    }
+}
+
+.container5 table td.col3, .container5 table td.col4 {
+    color: gray;
+    font-size: 1.8rem;
+    padding: 1rem 0 0 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .container5 table td.col3, .container5 table td.col4 {
+        color: gray;
+        font-size: 1rem;
+        
+    }  
+}
+
+section.container6 {
+    background-image: url(assets/upsell-footer-image.svg);
+    background-size: auto 30rem;
+    background-repeat: no-repeat;
+    background-position-x: 30rem;
+    background-position-y: bottom;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    margin-right: -10vh;
+    }
+
+@media screen and (min-width: 768px) {
+    section.container6 {
+        background-image: url(assets/upsell-footer-image.svg);
+        background-size: auto 40rem;
+        background-repeat: no-repeat;
+       background-position-x: right;
+       border-bottom: 1px solid gray;
+        border-top: 1px solid gray;
+        padding: 10vh;
+        margin: 0 10vh;
+    }
+}
+
+.container6 button {
+    border: solid 0.25rem transparent;
+    width: 14rem;
+    height: 4rem;
+    border-radius: 2rem;
+    background-image: linear-gradient(white, white), linear-gradient(to right, #FF3998, #FF8139);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    }
+
+
+.container7 .Logo1 img{
+    width: 60vh;
+    height: auto;
+    margin-top: 7rem;
+}  
+
+@media screen and (min-width: 768px) {
+    .container7-2 .Logo1-2 img {
+        width: 40vh;
+    }
+}
+
+.container7 .text8 p {
+    font-size: 2.6rem;
+    color: gray;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-left-2 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer-left {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container7 .text8 p{
+        font-size: 1.8rem;
+    color: gray;
+    }
+}
+
+.icons2 img {
+    display: inline-block;
+    height: 30px;
+    margin-right: 5vh;
+}
+
+@media screen and (min-width: 768px) {
+    .icons2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .icons2-2 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .icons2-2 img {
+        display: inline-block;
+        height: 1.5rem;
+        margin-right: 2rem;
+    }
+}
+
+.navigation {
+    margin: 10vh 0 0 0;
+    display: flex;
+    flex-direction: column;
+    width: 70vh;
+}
+
+.navigation-2 {
+    margin: 10vh 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+    .navigation-2 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .navigation {
+        display: none;
+    }
+}
+
+.navigation p {
+font-size: 2.6rem;
+color: gray;
+
+}
+
+@media screen and (min-width: 768px) {
+.navigation-2 p {
+    font-size: 1.8rem;
+    color: gray;
+   }
+}
+
+.about, .NFT, .CONTACTS, .SOCIAL {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation a {
+    margin: 1vh 0;
+    text-decoration: none;
+    color: gray;
+    font-size: 2.6rem;
+}
+
+@media screen and (min-width: 768px) {
+    .navigation-2 a {
+        
+        text-decoration: none;
+        color: gray;
+        font-size: 1.8rem;
+    }  
+}
+
+.top-info, .bottom-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.bottom-1 p {
+    color: gray;
+    font-size: 2.6rem;
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+
+}
+
+@media screen and (min-width: 768px) {
+    .bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;    
+    } 
+}
+
+@media screen and (min-width: 768px) {
+    .bottom-1 p {
+        color: gray;
+        font-size: 1.8rem;
+        padding-top: 10vh;
+        padding-bottom: 20vh;    
+    } 
+}
+
+@media screen and (min-width: 768px) {
+    .bottom-2 p {
+        color: gray;
+        font-size: 1.8rem;
+        padding-top: 10vh;
+        padding-bottom: 20vh;    
+    } 
+}
+
+@media screen and (max-width: 768px) {
+    .bottom-2 p {
+        display: none;
+    }
+}
