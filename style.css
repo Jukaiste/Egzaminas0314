@@ -126,6 +126,8 @@ body {
     background-repeat: no-repeat; 
     padding: 30px 10vh 20px 10vh;
     margin-top: 70px;
+    background-size: cover;
+    background-position: center;
 }
 
 .icons .items-plus {
