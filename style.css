@@ -9,9 +9,8 @@ body {
     }
 
 
-
   .Logo img {
-      width: 60vh;
+      width: 40vh;
       height: auto;
 }  
   
@@ -19,6 +18,7 @@ body {
         width: 7vh;
         height: auto;
 }
+
 .container2 {
     width: 100%;
     background: url(assets/graphic.svg);
@@ -32,11 +32,12 @@ body {
 @media screen and (min-width: 768px) {
     .container2 {
         
-        margin: 70px 0 0 10vh;
+        margin: 7rem 0 0 0;
         background: url(assets/graphic.svg);
         background-repeat: no-repeat;
-        background-position-x: right;
-        background-size: 700px 500px;
+        background-position-x: 40rem;
+        background-position-y: top;
+        background-size: auto 40rem;
     }
 }
 
@@ -96,6 +97,7 @@ background-clip: content-box, border-box;
 
 .container a {
     display: inline-block;
+    justify-content: space-between;
     color: gray;
     font-size: 1.6rem;
     margin: 10px;
@@ -158,7 +160,8 @@ background-clip: content-box, border-box;
     background-image: url(assets/background.svg);
     background-repeat: no-repeat; 
     background-size: 100% auto;
-    margin: 70px 10vh 0 10vh;
+    margin: 7rem 0.1vh 7rem 0.1vh;
+    border-radius: 1rem;   
     }
 }
 
@@ -253,7 +256,6 @@ margin-top: 7rem;
     .container5 {
         display: flex;
         overflow-x: unset;
-        padding-bottom: 50px;
         width: 100%;
     }
 }
@@ -268,9 +270,9 @@ margin-top: 7rem;
  
 @media screen and (min-width: 768px) {
     .container5 div.item-1 img, .container5 div.item-2 img, .container5 div.item-3 img, .container5 div.item-4 img  {
-        width: 270px;
+        width: 19rem;
         height: auto;
-        margin-right: 10vh;
+        margin-right: 3rem;
     } 
 }
 
@@ -281,7 +283,7 @@ margin-top: 7rem;
 
 @media screen and (min-width: 768px) {
     .container5 table {
-        width: 270px;
+        width: 19rem;
     }
 }
 
@@ -308,7 +310,7 @@ padding: 1rem 0 0 1rem;
 @media screen and (min-width: 768px) {
     .container5 table td.top1,  .container5 table td.top2 {
         font-size: 0.5rem;
-        padding: 5px;
+        
         
     }
 }
@@ -321,7 +323,7 @@ padding: 1rem 0 0 1rem;
 @media screen and (min-width: 768px) {
     .container5 table td.col1, .container5 table td.col2 {
         font-size: 1rem;
-        padding: 5px;
+        
         
     }   
 }
@@ -341,7 +343,8 @@ padding: 1rem 0 0 1rem;
         background-size: auto 1.2rem;
         background-repeat: no-repeat;
         background-position: right;
-        background-position-x: 15px;
+        background-position-x: 2rem;
+        background-position-y: 1rem;
        
     }
 }
@@ -356,7 +359,7 @@ padding: 1rem 0 0 1rem;
     .container5 table td.col3, .container5 table td.col4 {
         color: gray;
         font-size: 1rem;
-        padding: 5px;
+        
     }  
 }
 
@@ -374,7 +377,7 @@ section.container6 {
 @media screen and (min-width: 768px) {
     section.container6 {
         background-image: url(assets/upsell-footer-image.svg);
-        background-size: auto 400px;
+        background-size: auto 40rem;
         background-repeat: no-repeat;
        background-position-x: right;
        border-bottom: 1px solid gray;
@@ -392,8 +395,7 @@ section.container6 {
     background-image: linear-gradient(white, white), linear-gradient(to right, #FF3998, #FF8139);
     background-origin: border-box;
     background-clip: content-box, border-box;
-    margin-bottom: 7rem;
-}
+    }
 
 
 .container7 .Logo1 img{
@@ -453,8 +455,8 @@ section.container6 {
 @media screen and (min-width: 768px) {
     .icons2-2 img {
         display: inline-block;
-        height: 25px;
-        margin-right: 20px;
+        height: 1.5rem;
+        margin-right: 2rem;
     }
 }
 
@@ -487,15 +489,14 @@ section.container6 {
 .navigation p {
 font-size: 2.6rem;
 color: gray;
-margin: 10vh 0;
+
 }
 
 @media screen and (min-width: 768px) {
 .navigation-2 p {
     font-size: 1.8rem;
     color: gray;
-    margin: 20px 0;
-    }
+   }
 }
 
 .about, .NFT, .CONTACTS, .SOCIAL {
@@ -512,7 +513,7 @@ margin: 10vh 0;
 
 @media screen and (min-width: 768px) {
     .navigation-2 a {
-        margin: 10px 0;
+        
         text-decoration: none;
         color: gray;
         font-size: 1.8rem;
